@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    position: relative;
+}
+
+.layoutBlock_Red_framing {
+    position: absolute;
+    margin: 0;
+    width: 620px;
+    height: 635px;
+    background: #ff0000;
+}
+
+.layoutBlock_Red_framing:hover {
+    z-index: 1;
+}
+
+.layoutBlock_Red {
+    position: relative;
+}
+
+.circle_Red  {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #2c3e50;
+    top: 385px;
+    left: 370px;
+}
+
+.layoutBlock_Green_framing {
+    position: absolute;
+    margin: 0;
+    width: 620px;
+    height: 635px;
+    background: #54ff00;
+    top: 65px;
+    left: 480px;
+}
+
+.layoutBlock_Green_framing:hover {
+    z-index: 1;
+}
+
+.layoutBlock_Green {
+    position: relative;
+}
+
+.circle_Green  {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #2c3e50;
+    top: 385px;
+    left: 370px;
+}
+
+.layoutBlock_Blue_framing {
+    position: absolute;
+    margin: 0;
+    width: 620px;
+    height: 635px;
+    background: #0030ff;
+    top: 490px;
+    left: -15px;
+}
+
+.layoutBlock_Blue_framing:hover {
+    z-index: 1;
+}
+
+.layoutBlock_Blue {
+    position: relative;
+}
+
+.circle_Blue  {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #2c3e50;
+    top: 385px;
+    left: 370px;
+}
+
+.layoutBlock_Yellow_framing {
+    position: absolute;
+    margin: 0;
+    width: 620px;
+    height: 635px;
+    background: #ffe400;
+    top: 580px;
+    left: 530px;
+}
+
+.layoutBlock_Yellow {
+    position: relative;
+}
+
+.circle_Yellow  {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #2c3e50;
+    top: 385px;
+    left: 370px;
+}
+
+.circle_Yellow_relative {
+    position: relative;
+}
+
+.rectangle_1 {
+    position: absolute;
+    width: 160px;
+    height: 14px;
+    background: black;
+    transform: rotate(45deg);
+    top: 92px;
+    left: 22px;
+}
+
+.rectangle_2 {
+    position: absolute;
+    width: 160px;
+    height: 14px;
+    background: black;
+    transform: rotate(-45deg);
+    top: 92px;
+    left: 22px;
+}
