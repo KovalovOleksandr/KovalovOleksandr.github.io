@@ -1,2 +1,0 @@
-# KovalovOleksandr.github.io
-Lessons
