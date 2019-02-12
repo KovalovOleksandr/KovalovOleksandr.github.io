@@ -5,7 +5,9 @@
     <title>Результат</title>
 </head>
 <body>
-<div><a href="index.php"><button>Назад на страницу с формой</button></a></div>
+<div>
+    <a href="index.html><button>Назад на страницу с формой</button></a>
+</div>
 
 <?php
 $available = 10000; // доступно денег в банкомате.
