@@ -6,7 +6,7 @@
 </head>
 <body>
 <div>
-    <a href="index.html><button>Назад на страницу с формой</button></a>
+    <a href="index.html"><button>Назад на страницу с формой</button></a>
 </div>
 
 <?php
