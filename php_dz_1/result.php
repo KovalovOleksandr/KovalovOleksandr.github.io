@@ -1,13 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Результат</title>
-</head>
-<body>
-<div><a href="index.html"><button>Назад на страницу с формой</button></a></div>
 
 <?php
+header('Content-Type: text/html; charset=utf-8');
+
+echo '<a href="index.html"><button>Назад на страницу с формой</button></a>';
+
 $available = 10000; // доступно денег в банкомате.
 
 // Функция для подсчета количества купюр заданного номинала.
@@ -49,6 +45,3 @@ if ($_GET["amount"] != null) {
     }
 }
 ?>
-
-</body>
-</html>
