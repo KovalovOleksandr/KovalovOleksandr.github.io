@@ -22,8 +22,8 @@ function money($amount, $value)
     return $amount;
 }
 
-if ($_POST["amount"] != null) {
-    $amount = $_POST["amount"];
+if ($_GET["amount"] != null) {
+    $amount = $_GET["amount"];
     switch ($amount) {
         case $amount < 0:
             echo "Введено недопустимое значение!<br/>Сумма не может быть отрицательной или равняться нулю.<br/>Необходимо ввести целое позитивное число.";
